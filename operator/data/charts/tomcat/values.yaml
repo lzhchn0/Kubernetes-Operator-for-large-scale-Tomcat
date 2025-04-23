@@ -422,10 +422,10 @@ persistence:
   ## @param persistence.accessModes PVC Access Modes for Tomcat volume
   ##
   accessModes:
-    - ReadWriteOnce
+    - ReadWriteMany
   ## @param persistence.size PVC Storage Request for Tomcat volume
   ##
-  size: 8Gi
+  size: 2Gi
   ## @param persistence.existingClaim An Existing PVC name for Tomcat volume
   ##
   existingClaim: ""

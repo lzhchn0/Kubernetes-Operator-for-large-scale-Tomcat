@@ -1,0 +1,11 @@
+apiVersion: mynginx.opencanon.io/v1
+kind: Monitoring
+metadata:
+  labels:
+    app.kubernetes.io/name: operator-mar269-2025
+    app.kubernetes.io/managed-by: kustomize
+  name: monitoring-sample
+spec:
+  # TODO(user): Add fields here
+  replicas: 4
+  foo: "TomCruiser"

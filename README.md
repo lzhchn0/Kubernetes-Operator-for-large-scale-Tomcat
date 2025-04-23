@@ -1,4 +1,4 @@
-# Kubernetes-Operator-for-large-scale-Tomcat
+# Kubernetes Operator for large-scale Tomcat
 // TODO(user): Add simple overview of use/purpose
 
 ## Description
